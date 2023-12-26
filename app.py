@@ -5,7 +5,7 @@ import streamlit as st
 from ultralytics import YOLO
 
 # Replace the relative path to your weight file
-model_path = r'C:\Users\highp\OneDrive\Desktop\app_steamlit\data\runs\detect\train4\weights\best.pt'
+model_path = r'app_streamlit\best.pt'
 
 # Setting page layout
 st.set_page_config(
